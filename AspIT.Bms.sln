@@ -3,8 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspIT.Bms.Entities", "AspIT.Bms.Entities\AspIT.Bms.Entities.csproj", "{49E533CF-1AA8-4324-9E1F-2DA05293F859}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ED84D7B3-F73C-4B2C-ACF4-E1BA926D32F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspIT.Bms.Tests.EntitiesTests", "AspIT.Bms.Tests.EntitiesTests\AspIT.Bms.Tests.EntitiesTests.csproj", "{1BDED6E2-5D7C-4FE9-8F1D-138334D07382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspIT.Bms.Gui.WinDesktop", "AspIT.Bms.Gui.WinDesktop\AspIT.Bms.Gui.WinDesktop.csproj", "{3ABE69B8-20C6-4E63-A9B8-0BD98E3287AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19BB5BC0-4B61-4722-BB9E-4CDC167A8E59}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspIT.Bms.Tests.Gui.WinDesktopCodedUiTests", "AspIT.Bms.Tests.Gui.WinDesktopCodedUiTests\AspIT.Bms.Tests.Gui.WinDesktopCodedUiTests.csproj", "{1F4234AA-324A-4A10-97B8-1FFFE66EA5EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspIT.Bms.DataAccess", "AspIT.Bms.DataAccess\AspIT.Bms.DataAccess.csproj", "{7655ABC3-9A5F-4C78-A213-F8262632D2E9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49E533CF-1AA8-4324-9E1F-2DA05293F859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E533CF-1AA8-4324-9E1F-2DA05293F859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E533CF-1AA8-4324-9E1F-2DA05293F859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E533CF-1AA8-4324-9E1F-2DA05293F859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDED6E2-5D7C-4FE9-8F1D-138334D07382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDED6E2-5D7C-4FE9-8F1D-138334D07382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDED6E2-5D7C-4FE9-8F1D-138334D07382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDED6E2-5D7C-4FE9-8F1D-138334D07382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABE69B8-20C6-4E63-A9B8-0BD98E3287AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABE69B8-20C6-4E63-A9B8-0BD98E3287AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABE69B8-20C6-4E63-A9B8-0BD98E3287AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABE69B8-20C6-4E63-A9B8-0BD98E3287AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4234AA-324A-4A10-97B8-1FFFE66EA5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4234AA-324A-4A10-97B8-1FFFE66EA5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4234AA-324A-4A10-97B8-1FFFE66EA5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4234AA-324A-4A10-97B8-1FFFE66EA5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7655ABC3-9A5F-4C78-A213-F8262632D2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7655ABC3-9A5F-4C78-A213-F8262632D2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7655ABC3-9A5F-4C78-A213-F8262632D2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7655ABC3-9A5F-4C78-A213-F8262632D2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BDED6E2-5D7C-4FE9-8F1D-138334D07382} = {ED84D7B3-F73C-4B2C-ACF4-E1BA926D32F3}
+		{1F4234AA-324A-4A10-97B8-1FFFE66EA5EC} = {ED84D7B3-F73C-4B2C-ACF4-E1BA926D32F3}
 	EndGlobalSection
 EndGlobal
